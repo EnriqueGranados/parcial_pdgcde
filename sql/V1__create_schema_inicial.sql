@@ -9,7 +9,7 @@ CREATE TABLE rango (
 CREATE TABLE investigador (
     id_investigador SERIAL PRIMARY KEY,
     id_rango INT NOT NULL,
-    nombre VARCHAR(150) NOT NULL,
+    nombre VARCHAR(150) NOT NULL
 );
 
 -- Tabla para los laboratorios.
